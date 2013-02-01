@@ -1,7 +1,8 @@
 name = Tapitstrap
 description = Tap-it project theme based on the Twitter Bootstrap sub theme.
 core = 7.x
-
+engine = phptemplate
+screenshot = screenshot.png
 base theme = tweme
 
 stylesheets[all][] = css/bootstrap-extra.css
