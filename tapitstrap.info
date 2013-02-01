@@ -2,9 +2,11 @@ name = Tapitstrap
 description = Tap-it project theme based on the Twitter Bootstrap sub theme.
 core = 7.x
 
-stylesheets[all][] = assets/css/bootstrap-extra.css
-stylesheets[all][] = assets/css/drupal.css
-stylesheets[all][] = assets/css/style.css
+base theme = tweme-theme
+
+stylesheets[all][] = css/bootstrap-extra.css
+stylesheets[all][] = css/drupal.css
+stylesheets[all][] = css/style.css
 
 regions[hidden] = Hidden
 regions[header] = Header
@@ -25,4 +27,3 @@ regions[footer] = Footer
 version = "unknown"
 project = "tweme-theme"
 datestamp = "1359725955"
-
