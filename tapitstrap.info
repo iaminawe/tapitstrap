@@ -1,7 +1,5 @@
 name = Tapitstrap
 description = Tap-it project theme based on the Twitter Bootstrap sub theme.
-core = 7.x
-engine = phptemplate
 screenshot = screenshot.png
 base theme = tweme
 
@@ -22,9 +20,3 @@ regions[sidebar_first_affix] = Sidebar first affixed
 regions[sidebar_second] = Sidebar second
 regions[sidebar_second_affix] = Sidebar second affixed
 regions[footer] = Footer
-
-
-; Information added by drush on 2013-02-01
-version = "unknown"
-project = "tweme-theme"
-datestamp = "1359725955"
