@@ -80,17 +80,6 @@ div.clear {
 	display: block;
 }
 
-.row > [class*="span"]:first-child {
-	margin-left: 25px;
-}
-
-.row > [class*="span"] {
-	margin-left: 25px;
-}
-
-.row {
-	margin-left: -25px;
-}
 
 /* Assistive text */
 .assistive-text {
@@ -171,75 +160,6 @@ header#main {
 	margin-bottom: 30px;
 }
 
-#content .container-fluid .sidebar {
-	width: 180px;
-	border: none;
-	border-radius: 0;
-	background: transparent;
-}
-
-#content .container-fluid .sidebar ul,
-#content .container-fluid .sidebar li {
-	background: transparent;
-	color: white;
-	border-radius: 0;
-	font-weight: bold;
-}
-
-#content .container-fluid .sidebar ul {
-	border-bottom: 1px solid #385e0b;
-}
-
-#content .container-fluid .sidebar li.parent:not(.collapsed) ul li a {
-	border: none;
-}
-
-#content .container-fluid .sidebar li.parent:not(.collapsed) a {
-	border-bottom: 1px solid #75af2d;
-}
-
-#content .container-fluid .sidebar li {
-	border-top: 1px solid #385e0b;
-	border-bottom: 1px solid #75af2d;
-}
-
-#content .container-fluid .sidebar li ul {
-	border-top: 1px solid #385e0b;
-	border-bottom: none;
-}
-
-#content .container-fluid .sidebar li ul li,
-#content .container-fluid .sidebar li ul li a {
-	border: none;
-}
-
-#content .container-fluid .sidebar li a,
-#content .container-fluid .sidebar li a:hover {
-	line-height: 42px;
-	color: white;
-	font-weight: normal;
-}
-
-#content .container-fluid .sidebar li a.activetab,
-#content .container-fluid .sidebar li a.activetab:hover {
-	font-weight: bold;
-}
-
-#content .container-fluid .sidebar li.tab {
-	cursor: pointer;
-}
-
-#content .container-fluid .content {
-	width: 764px;
-	min-height: 225px;
-	margin: 0;
-	float: left;
-	background: #EDEAEB;
-}
-
-#content .container-fluid .content p:last-child {
-	margin-bottom: 0;
-}
 
 .content .tab-content {
 	display: none;
