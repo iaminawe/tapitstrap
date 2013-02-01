@@ -2,7 +2,7 @@ name = Tapitstrap
 description = Tap-it project theme based on the Twitter Bootstrap sub theme.
 core = 7.x
 
-base theme = tweme-theme
+base theme = tweme
 
 stylesheets[all][] = css/bootstrap-extra.css
 stylesheets[all][] = css/drupal.css
